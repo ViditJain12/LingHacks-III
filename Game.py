@@ -154,7 +154,8 @@ while running:
                 textY = 1000
             Game_Over()
             break
-
+    
+    # Enemy movement continued
         enemyX[enemies] += enemyX_Change[enemies]
         if enemyX[enemies] <= 0:
             enemyX_Change[enemies] = 0.25
